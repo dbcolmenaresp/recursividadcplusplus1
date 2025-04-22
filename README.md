@@ -68,20 +68,27 @@ Para la implementación del algoritmo del cálculo de la suma de los n primeros 
 
 Primeramente se define la función, la cual debe recibir el número al que se le va a calcular la suma.
 
+~~~c++
 // Funcion que calcula la suma sucesiva del numero n recibido
 int sumasucesiva(int n){
+~~~
 
 Se debe agregar a la función la condición de parada de las sumas sucesivas.
 
+~~~c++
 if (n == 1)
     return 1; // Caso base
+~~~
 
 Por último se agrega la condición recursiva para el cálculo en sumas sucesivas
 
+~~~c++
 return sumasucesiva(n - 1) + n; // Caso recursivo
+~~~
 
 El programa completo para calcular la suma sucesiva de los n primeros números enteros positivos se muestra a continuación:
 
+~~~c++
 // Programa para implementar el calculo de la suma sucesiva de n usando un enfoque recursivo
 
 #include <iostream>
@@ -106,6 +113,7 @@ int main(){
 
     return 0;
 }
+~~~
 
 ## Ejemplo del cálculo del valor factorial de un número.
 
@@ -130,22 +138,29 @@ funcion factorial(n):
 
 Primeramente se define la función recursiva para el cálculo del valor factorial de un número entero positivo
 
+~~~c++
 // Funcion que calcula el valor factorial del numero n recibido
 int factorial(int n){
+~~~
 
 Luego se implementa la condicion base del cálculo factorial, el factorial de 0 es 1
 
 0! = 1
 
+~~~c++
 if (n == 0)
     return 1; // Caso base
+~~~
 
 Por último se implementa la condición recursiva
 
+~~~c++
 return n * factorial(n - 1); // Caso recursivo
+~~~
 
 A continuación se presenta la implementación del cálculo del valor factorial de un número entero usando la recursividad.
 
+~~~c++
 // Programa para implementar el calculo del valor del factorial de n usando un enfoque recursivo
 
 #include <iostream>
@@ -170,6 +185,7 @@ int main(){
 
     return 0;
 }
+~~~
 
 En conclusión la recursividad es una herramienta poderosa en programación que facilita la resolución de problemas dividiéndolos en instancias más pequeñas de si mismos. Su uso se extiende desde cálculos matemáticos simples hasta estructuras de datos avanzadas como árboles binarios y algoritmos de búsqueda. Sin embargo, es fundamental definir correctametne los casos base para evitar bucles infinitos y problemas de eficiencia.
 
