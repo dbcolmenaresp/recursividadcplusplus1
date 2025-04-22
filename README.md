@@ -3,13 +3,13 @@ Técnica de recursividad para el desarrollo de programas legibles y comprensible
 
 ## RECURSIVIDAD
 
-	La recursividad es una técnica fundamental en programación donde una función se llama a si misma para resolver un problema más complejo mediante la división en subproblemas más pequeños. Se utiliza cuando un problema puede descomponerse en versiones más simples de si mismo hasta alcanzar la condición de parada. La recursividad es una solución computacionalmente menos eficiente, en términos del tiempo de procesador y memoria usados para su ejecución, comparada con una solución iterativa, sin embargo permite una solución natural, fácil de entender y sencilla.
+La recursividad es una técnica fundamental en programación donde una función se llama a si misma para resolver un problema más complejo mediante la división en subproblemas más pequeños. Se utiliza cuando un problema puede descomponerse en versiones más simples de si mismo hasta alcanzar la condición de parada. La recursividad es una solución computacionalmente menos eficiente, en términos del tiempo de procesador y memoria usados para su ejecución, comparada con una solución iterativa, sin embargo permite una solución natural, fácil de entender y sencilla.
 
-	La importancia de conocer y usar el enfoque recursivo en el diseño de programas es que existen funciones matemáticas y numerosas circunstancias y situaciones de la vida cotidiana que son de naturaleza recursivas y su implementación con esta técnica resulta mucho más intuitiva y fácil de comprender. La recursividad es especialmente útil en estructuras como árboles, algorítmos de búsqueda, operaciones matemáticas de naturaleza recursiva, procesamiento de datos recursivos y toda situación en la cual se identifique una condición recursiva y una situación de parada de la misma.
+La importancia de conocer y usar el enfoque recursivo en el diseño de programas es que existen funciones matemáticas y numerosas circunstancias y situaciones de la vida cotidiana que son de naturaleza recursivas y su implementación con esta técnica resulta mucho más intuitiva y fácil de comprender. La recursividad es especialmente útil en estructuras como árboles, algorítmos de búsqueda, operaciones matemáticas de naturaleza recursiva, procesamiento de datos recursivos y toda situación en la cual se identifique una condición recursiva y una situación de parada de la misma.
 
-	Una función que entre las sentencias que la constituyen tienen al menos una sentencia que hace un llamado a si misma, se dice que es recursiva.
+Una función que entre las sentencias que la constituyen tienen al menos una sentencia que hace un llamado a si misma, se dice que es recursiva.
 
-	La estructura básica de una función recursiva seria la siguiente:
+La estructura básica de una función recursiva seria la siguiente:
 
 void funcion(){
 	...
@@ -17,10 +17,10 @@ void funcion(){
 	...
 }
 
-	Una función recursiva consta de dos elementos esenciales:
+Una función recursiva consta de dos elementos esenciales:
 
 ### Caso base: 
-  Es la condición que detiene la recursión mediante la asignación de un valor básico sin necesidad de llamar a la función de manera recursiva. Sin un caso base, la función se ejecutaria indefinidamente.
+Es la condición que detiene la recursión mediante la asignación de un valor básico sin necesidad de llamar a la función de manera recursiva. Sin un caso base, la función se ejecutaria indefinidamente.
 
 ### Caso recursivo: 
   Es la pate donde la función se llama a si misma con una versión reducida del problema.
