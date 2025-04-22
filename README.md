@@ -12,9 +12,9 @@ Una función que entre las sentencias que la constituyen tienen al menos una sen
 La estructura básica de una función recursiva seria la siguiente:
 
 void funcion(){
-	...
-	funcion() // llamada recursiva
-	...
+    ...
+    funcion() // llamada recursiva
+    ...
 }
 
 Una función recursiva consta de dos elementos esenciales:
@@ -58,9 +58,9 @@ El algoritmo que resuelve este problema de manera recursiva es el siguiente:
 n = 5 // Valor al que se le quiere calcular la suma sucesiva
 
 funcion SumaEnteros(entero n)
-	si n == 1 entonces retornar 1 // Condición de parada, caso base
-	si no
-		retornar n + SumaEnteros(n – 1) // Condición recursiva
+    si n == 1 entonces retornar 1 // Condición de parada, caso base
+    si no
+        retornar n + SumaEnteros(n – 1) // Condición recursiva
 
 ## Implementación de la suma sucesiva de los primeros números enteros positivos en C ++
 
@@ -74,7 +74,7 @@ int sumasucesiva(int n){
 Se debe agregar a la función la condición de parada de las sumas sucesivas.
 
 if (n == 1)
-		return 1; // Caso base
+    return 1; // Caso base
 
 Por último se agrega la condición recursiva para el cálculo en sumas sucesivas
 
@@ -89,22 +89,22 @@ using namespace std;
 
 // Funcion que calcula la suma sucesiva del numero n recibido
 int sumasucesiva(int n){
-	if (n == 1)
-		return 1; // Caso base
-	else
-		return sumasucesiva(n - 1) + n; // Caso recursivo
+    if (n == 1)
+        return 1; // Caso base
+    else
+        return sumasucesiva(n - 1) + n; // Caso recursivo
 }
 
 int main(){
-	
-	int num;
+
+    int num;
 
     cout << "Ingrese el valor entero para calcular las sumas sucesivas: ";
     cin >> num;
 
-	cout << "La suma sucesiva de " << num << " es: " << sumasucesiva(num) << endl;
-	
-	return 0;
+    cout << "La suma sucesiva de " << num << " es: " << sumasucesiva(num) << endl;
+
+    return 0;
 }
 
 ## Ejemplo del cálculo del valor factorial de un número.
@@ -121,10 +121,10 @@ n! 0 = 1
 En este caso la función recursiva del cálculo del valor factorial de n es la siguiente:
 
 funcion factorial(n):
-	si n == 0 entonces
-		devolver 1
-	si no
-		devolver n * factorial(n – 1)
+    si n == 0 entonces
+        devolver 1
+    si no
+        devolver n * factorial(n – 1)
 
 ## Programa para el cálculo recursivo del valor factorial de un número entero
 
@@ -138,7 +138,7 @@ Luego se implementa la condicion base del cálculo factorial, el factorial de 0 
 0! = 1
 
 if (n == 0)
-	return 1; // Caso base
+    return 1; // Caso base
 
 Por último se implementa la condición recursiva
 
@@ -153,22 +153,22 @@ using namespace std;
 
 // Funcion que calcula el valor factorial del numero n recibido
 int factorial(int n){
-	if (n == 0)
-		return 1; // Caso base
-	else
-		return n * factorial(n - 1); // Caso recursivo
+    if (n == 0)
+        return 1; // Caso base
+    else
+        return n * factorial(n - 1); // Caso recursivo
 }
 
 int main(){
-	
-	int num;
+
+    int num;
 
     cout << "Ingrese el numero entero para calcular su valor factorial: ";
     cin >> num;
 
-	cout << "El factorial de " << num << " es: " << factorial(num) << endl;
-	
-	return 0;
+    cout << "El factorial de " << num << " es: " << factorial(num) << endl;
+
+    return 0;
 }
 
 En conclusión la recursividad es una herramienta poderosa en programación que facilita la resolución de problemas dividiéndolos en instancias más pequeñas de si mismos. Su uso se extiende desde cálculos matemáticos simples hasta estructuras de datos avanzadas como árboles binarios y algoritmos de búsqueda. Sin embargo, es fundamental definir correctametne los casos base para evitar bucles infinitos y problemas de eficiencia.
