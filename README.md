@@ -11,11 +11,13 @@ Una función que entre las sentencias que la constituyen tienen al menos una sen
 
 La estructura básica de una función recursiva seria la siguiente:
 
-void funcion(){
+```
+ funcion(){
     ...
     funcion() // llamada recursiva
     ...
 }
+```
 
 Una función recursiva consta de dos elementos esenciales:
 
@@ -55,12 +57,14 @@ En este caso es importante identificar el caso base, en esta oportunidad el valo
 
 El algoritmo que resuelve este problema de manera recursiva es el siguiente:
 
+```
 n = 5 // Valor al que se le quiere calcular la suma sucesiva
 
 funcion SumaEnteros(entero n)
     si n == 1 entonces retornar 1 // Condición de parada, caso base
     si no
         retornar n + SumaEnteros(n – 1) // Condición recursiva
+```
 
 ## Implementación de la suma sucesiva de los primeros números enteros positivos en C ++
 
@@ -128,11 +132,13 @@ n! 0 = 1
 
 En este caso la función recursiva del cálculo del valor factorial de n es la siguiente:
 
+```
 funcion factorial(n):
     si n == 0 entonces
         devolver 1
     si no
         devolver n * factorial(n – 1)
+```
 
 ## Programa para el cálculo recursivo del valor factorial de un número entero
 
