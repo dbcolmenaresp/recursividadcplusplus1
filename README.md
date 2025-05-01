@@ -206,4 +206,4 @@ La razón para seleccionar un algoritmo recursivo es estrictamente de indole de 
 
 REFERENCIAS
 
-Joyanes, L. y otros, Estructura de datos en C++. Disponible en 
+Joyanes, L. y otros, Estructura de datos en C++. Disponible en https://drive.google.com/file/d/1TlBJK2GQtObK7k9pf9McbLsrlWUtdgMf/view
