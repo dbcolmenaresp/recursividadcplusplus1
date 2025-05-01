@@ -123,6 +123,9 @@ int main(){
 
 ## Ejemplo del cálculo del valor factorial de un número.
 
+El factorial se define como el producto de todos los números naturales hsta el valor dado. La recursividad facilita este cálculo ya que el problema puede expresarse como
+n factorial es igual a n veces n menos uno
+
 El cálculo del valor factorial de un número n se define de la siguiente manera:
 
 n! = n * (n – 1)
