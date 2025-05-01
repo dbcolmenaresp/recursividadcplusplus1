@@ -39,11 +39,11 @@ A continuación se procede a analizar la implementación algorítmica del cálcu
 
 Comencemos analizando los valores de la suma sucesiva de los n primeros números naturales positivos:
 
-Para n = 1 S(1) = 1
-Para n = 2 S(2) = S(1) + 2
-Para n = 3 S(3) = S(2) + 3
-Para n = 4 S(4) = S(3) + 4
-Para n = 5 S(5) = S(4) + 5
+Para n = 1 S(1) = 1  
+Para n = 2 S(2) = S(1) + 2  
+Para n = 3 S(3) = S(2) + 3  
+Para n = 4 S(4) = S(3) + 4  
+Para n = 5 S(5) = S(4) + 5  
 
 De manera general se tiene que para un número dado n, la suma sucesiva de los n primeros números positivos, es decir el elemento recursivo se puede definir de la siguiente manera:
 
@@ -127,8 +127,8 @@ n! = n * (n – 1)
 
 La condición de parada o caso base es cuando el número n es igual a 1 o es igual a 0, en ambos casos el valor factorial es 1
 
-n! 1 = 1
-n! 0 = 1
+n! 1 = 1  
+n! 0 = 1  
 
 En este caso la función recursiva del cálculo del valor factorial de n es la siguiente:
 
