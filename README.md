@@ -3,6 +3,8 @@ Técnica de recursividad para el desarrollo de programas legibles y comprensible
 
 ## RECURSIVIDAD
 
+La recurisvidad es una herramienta extremadamente poderosa y versatil en programación que permite simplificar la solución de problemas complejos al dividirlos en subproblemas más manejables.
+
 La recursividad es una técnica fundamental en programación donde una función se llama a si misma para resolver un problema más complejo mediante la división en subproblemas más pequeños. Se utiliza cuando un problema puede descomponerse en versiones más simples de si mismo hasta alcanzar la condición de parada. La recursividad es una solución computacionalmente menos eficiente, en términos del tiempo de procesador y memoria usados para su ejecución, comparada con una solución iterativa, sin embargo permite una solución natural, fácil de entender y sencilla.
 
 La importancia de conocer y usar el enfoque recursivo en el diseño de programas es que existen funciones matemáticas y numerosas circunstancias y situaciones de la vida cotidiana que son de naturaleza recursivas y su implementación con esta técnica resulta mucho más intuitiva y fácil de comprender. La recursividad es especialmente útil en estructuras como árboles, algorítmos de búsqueda, operaciones matemáticas de naturaleza recursiva, procesamiento de datos recursivos y toda situación en la cual se identifique una condición recursiva y una situación de parada de la misma.
