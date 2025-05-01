@@ -203,3 +203,7 @@ En conclusión la recursividad es una herramienta poderosa en programación que 
 En un algoritmo recursivo se comprende por caso base el valor que se determina sin la necesidad de una llamada recursiva, solo se necesitan unas pocas sentencias elementales. El caso base se ejecuta al momento de alcanzar la condicion de parada de las llamadas recursivas. La condición recursiva identificada debe aproximarse progresivamente a la condición de parada. El proceso de llamadas recursivas debe tener una condición de parada para evitar que la misma se ejecute infinitamente.
 
 La razón para seleccionar un algoritmo recursivo es estrictamente de indole de facilidad de implementación y comprensión, no de eficiencia, sin embargo al momento de impementar una función recursiva se facilita la depuración y mantenimiento del programa. En ciertas situaciones la recursión conduce intuitivamente a soluciones que son mucho más faciles de leer y comprender, en estos casos los beneficios de la claridad de la solución implementada compensan el coste extra en procesamiento y memoria utilizados en su ejecución.
+
+REFERENCIAS
+
+Joyanes, L. y otros, Estructura de datos en C++. Disponible en 
